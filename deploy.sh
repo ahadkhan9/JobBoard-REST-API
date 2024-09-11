@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Define variables
-PROJECT_DIR="/home/ahad/Projects/Job-Post-Rest-API/"
+PROJECT_DIR="path to your project dir"
 DOCKER_IMAGE_NAME="job-post-rest-api:latest"
 TAR_FILE="job-post-rest-api.tar"
 SERVER_USER="root"
-SERVER_IP="134.209.148.84"
+SERVER_IP="Enter Your Server IP aadrs"
 SERVER_PROJECT_DIR="/root/projects/Spring-Learning"
-SSH_KEY="/home/ahad/.ssh/id_rsa"  # Ensure this key has the correct permissions (chmod 600)
+SSH_KEY="Enter Your SSH key"  # Ensure this key has the correct permissions (chmod 600)
 
 # Step 1: Build the JAR file locally
 echo "Building the project with Maven..."
